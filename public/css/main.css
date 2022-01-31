@@ -1,0 +1,30 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.border { border: 2px solid black; }
+
+.container {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #efefef;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.container h1 {
+    background-color: white;
+    padding: 1rem;
+}
+
+.container p { font-size: 110%; }
+
+.container button {
+	background-color: white;
+	padding: 0.5rem 2rem;
+}
+
+.container > * { margin-bottom: 3rem; }
